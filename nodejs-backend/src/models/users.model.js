@@ -13,6 +13,7 @@
        password: { type: String },
        phoneNo: { type: Number, required: true, unique: true },
        plan: { type: String },
+       userType: { type: String },
 
     }
           // ~cb-read-end~
